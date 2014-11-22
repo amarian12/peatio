@@ -1308,6 +1308,7 @@ zh-CN:
   easy_table:
     satoshi:
       amount: 金额
+      txid: TxID
       created_at: 创建时间
       memo: 确认数
       member_name: 用户
@@ -1349,6 +1350,15 @@ zh-CN:
         done: 完全成交
         wait: 等待成交
         cancel: 撤销
+    deposit:
+      aasm_state:
+        submitted: 受理中
+        submitting: 待提交
+        accepted: 已到账
+        cancelled: 已撤销
+        rejected: 已驳回
+        checked: 已到账
+        warning: 异常
     withdraw:
       state:
         submitting: 受理中

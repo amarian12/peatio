@@ -53,7 +53,6 @@ en:
         balance: Balance
         locked: Frozen
       deposit:
-        currency-address-type: Currency - Pay type
         state: State
         tx_id: TxID
         member_id: Member ID
@@ -274,9 +273,6 @@ en:
     sdb: Shenzhen Development Bank
     pab: Ping An Bank Co., Ltd.
     gdb: Guangdong Development Bank
-    bank_code_1: bank_code_1
-    bank_code_2: bank_code_2
-    bank_code_3: bank_code_3
   breadcrumbs:
     admin: Admin
     admin/dashboard: Dashboard
@@ -1425,22 +1421,14 @@ en:
         wait: WAIT
         cancel: CANCEL
     deposit:
-      admin_aasm_state:
-        submitted: "待处理"
-        submitting: "已提交"
-        cancelled: "已撤销"
-        accepted: "已到账"
-        rejected: "已驳回"
-        checked: "已入账"
-        warning: "异常"
       aasm_state:
-        submitted: "受理中"
-        submitting: "待提交"
-        accepted: "已到账"
-        cancelled: "已撤销"
-        rejected: "已驳回"
-        checked: "已到账"
-        warning: "异常"
+        submitted: Submitted
+        submitting: Submitting
+        accepted: Accepted
+        cancelled: Canceled
+        rejected: Rejected
+        checked: Checked
+        warning: Warning
     withdraw:
       state:
         submitting: Submitting
@@ -1559,12 +1547,6 @@ en:
     withdraw_state:
       subject: "[Peatio] Your withdraw state update"
       your_state: 'Your withdrawal state: '
-      'true': is true
-      'false': is false
-      present: is present
-      blank: is blank
-      'null': is null
-      not_null: is not null
   'true': true
   'false': false
   view_on_github: View on Github
