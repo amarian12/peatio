@@ -8,4 +8,6 @@ en:
         title: "%{icon} %{c} Account"
         cny_format: '0.00'
         btc_format: '0.00000000'
+        czr_format: '0.00000000'
+        tet_format: '0.00000000'
         total: Total

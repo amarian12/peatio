@@ -4,6 +4,8 @@ en:
       show:
         cny_format: '0.00'
         btc_format: '0.00000000'
+        czr_format: '0.00000000'
+        tet_format: '0.00000000'
         account_history: Account History
         reason:
           cny:
@@ -13,6 +15,18 @@ en:
             withdraw: Withdraw
             fix: Fix
           btc:
+            strike_add: Plus
+            strike_sub: Sub
+            deposit: Deposit
+            withdraw: Withdraw
+            fix: Fix
+          czr:
+            strike_add: Plus
+            strike_sub: Sub
+            deposit: Deposit
+            withdraw: Withdraw
+            fix: Fix
+          tet:
             strike_add: Plus
             strike_sub: Sub
             deposit: Deposit

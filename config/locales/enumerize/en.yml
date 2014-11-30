@@ -21,6 +21,8 @@ en:
     currency:
       cny: CNY
       btc: BTC
+      czr: CZR
+      tet: TET
     order:
       state:
         done: DONE
