@@ -3,7 +3,8 @@ module Private
     layout 'funds'
 
     before_action :auth_activated!
-    before_action :auth_verified!
+    # Disable Verfication
+    #before_action :auth_verified!
     before_action :two_factor_activated!
 
     def index

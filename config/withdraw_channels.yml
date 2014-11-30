@@ -1,14 +1,14 @@
-- id: 400
-  key: bank
-  currency: cny
-  fixed: 2
-  fee_max: 0
-  min: 100
-  max: 50000
-  fee: 0.003
-  proportion: true
-  inuse: true
-  type: WithdrawChannelBank
+#- id: 400
+#  key: bank
+#  currency: cny
+#  fixed: 2
+#  fee_max: 0
+#  min: 100
+#  max: 50000
+#  fee: 0.003
+#  proportion: true
+#  inuse: true
+#  type: WithdrawChannelBank
 - id: 200
   key: satoshi
   currency: btc

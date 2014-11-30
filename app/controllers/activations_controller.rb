@@ -2,6 +2,7 @@ class ActivationsController < ApplicationController
   include Concerns::TokenManagement
 
   before_action :auth_member!,    only: :new
+  # Disable Verifications
   before_action :verified?,       only: :new
   before_action :token_required!, only: :edit
 

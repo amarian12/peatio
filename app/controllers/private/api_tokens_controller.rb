@@ -1,7 +1,8 @@
 module Private
   class APITokensController < BaseController
     before_action :auth_activated!
-    before_action :auth_verified!
+    # Disable Verification
+    #before_action :auth_verified!
     before_action :two_factor_activated!
 
     def index
