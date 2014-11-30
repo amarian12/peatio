@@ -1,0 +1,7 @@
+en:
+  currency:
+    czarcoin:
+      key: CZR
+      code: CZR
+      name: Czarcoin
+      format: '0,0.0000'

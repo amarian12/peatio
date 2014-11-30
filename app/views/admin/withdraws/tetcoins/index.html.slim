@@ -1,0 +1,11 @@
+- unless @one_tetcoins.empty?
+  .panel.panel-primary
+    .panel-heading: span = t('.one')
+    = render partial: 'table', locals: {tetcoins: @one_tetcoins}
+- unless @all_tetcoins.empty?
+  .panel.panel-success
+    .panel-heading: span = t('.all')
+    = render partial: 'table', locals: {tetcoins: @all_tetcoins}
+
+- if @all_tetcoins.empty? and @one_tetcoins.empty?
+  h3.text-info.text-center = t('.empty')

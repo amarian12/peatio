@@ -1,0 +1,53 @@
+en:
+  deposit_channel:
+    czarcoin:
+      key: Block Chain
+      title: Czarcoin Deposits
+      intro: Deposit czarcoin from your own wallet address to Treefunder account
+      latency: 1 confirmation
+      transfer: Manual
+      go: Deposit
+
+  activerecord:
+    attributes:
+      deposits/czarcoin:
+        created_at: Created At
+        txid: Transaction ID
+        amount: Amount
+        memo: Confirmation
+        aasm_state_text: State
+
+  deposits/czarcoin:
+    aasm_state:
+      submitted: Submitted
+      accepted: Accepted
+      checked: Checked
+      warning: Warning
+
+  guides:
+    private:
+      deposits:
+        czarcoins:
+          panel: Deposits
+          intro: Deposit czarcoin from your own Wallet address to Treefunder account.
+          new:
+            default-panel: Deposit Transactions
+
+  admin:
+    deposits:
+      czarcoins:
+        update:
+          notice: The deposit was successful.
+        index:
+          accept: Accept
+          accept_confirm: Confirm deposit?
+
+  private:
+    deposits:
+      czarcoins:
+        new:
+          send-coin: Fill in the collection address the following address which is specifically for your czarcoin deposits. Check the czarcoin amount you want to send,  and do not forget to pay a fee to the miner in order to ensure the transaction could be confirmed quickly.
+          check-confirm: Send czarcoin to your Treefunder account. When the transaction gets one confirmation by the whole network, the system will automatically recharge your account.(you do not need to refresh this interface, transactions and recharge will be real-time updated).
+        gen_address:
+          require_transaction: Cannot generate new address until current address used.
+

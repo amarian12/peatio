@@ -1,9 +1,3 @@
-- id: 200
-  key: satoshi
-  currency: btc
-  sort_order: 1
-  min_confirm: 1
-  max_confirm: 3
 - id: 400
   key: bank
   currency: cny
@@ -14,3 +8,21 @@
       branch: 'Your Bank Branch'
       holder: 'Your Account Holder'
       account: 'Your Account Number'
+- id: 200
+  key: satoshi
+  currency: btc
+  sort_order: 1
+  min_confirm: 1
+  max_confirm: 3
+- id: 1000
+  key: czarcoin
+  currency: czr
+  sort_order: 1
+  min_confirm: 1
+  max_confirm: 3
+- id: 1001
+  key: tetcoin
+  currency: tet
+  sort_order: 1
+  min_confirm: 1
+  max_confirm: 3

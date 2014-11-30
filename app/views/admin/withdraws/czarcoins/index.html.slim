@@ -1,0 +1,11 @@
+- unless @one_czarcoins.empty?
+  .panel.panel-primary
+    .panel-heading: span = t('.one')
+    = render partial: 'table', locals: {czarcoins: @one_czarcoins}
+- unless @all_czarcoins.empty?
+  .panel.panel-success
+    .panel-heading: span = t('.all')
+    = render partial: 'table', locals: {czarcoins: @all_czarcoins}
+
+- if @all_czarcoins.empty? and @one_czarcoins.empty?
+  h3.text-info.text-center = t('.empty')

@@ -3,19 +3,29 @@ en:
     name:
       cny: CNY
       btc: Bitcoin
+      czr: Czarcoin
+      tet: Tetcoin
     code:
       cny: CNY
       btc: BTC
+      czr: CZR
+      tet: TET
     format:
       zero: 'N/A'
       cny: '0,0.00'
       btc: '0,0.0000'
+      czr: '0,0.0000'
+      tet: '0,0.0000'
     icon-large:
       cny: <i class='fa fa-2x fa-yen'></i>
       btc: <i class='fa fa-2x fa-btc'></i>
+      czr: <i class='fa fa-2x fa-czr'></i>
+      tet: <i class='fa fa-2x fa-tet'></i>
     icon:
       cny: <i class='fa fa-yen'></i>
       btc: <i class='fa fa-btc'></i>
+      czr: <i class='fa fa-czr'></i>
+      tet: <i class='fa fa-tet'></i>
     sum:
       bid: Total Price <span class=bid_totle></span>%{bid_icon}
       ask: Total Price <span class=ask_totle></span>%{bid_icon}

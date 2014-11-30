@@ -1,0 +1,30 @@
+.row
+  .col-xs-12
+    .panel.panel-primary
+      .panel-heading
+        span = t('.withdraw', sn: @tetcoin.id)
+      .panel-body
+        = description_for :withdraw do
+          = item_for @tetcoin, :id
+          = item_for @tetcoin, :created_at
+          = item_for @tetcoin, :aasm_state_text
+          hr.split
+          = item_for @tetcoin.member, :name
+          = item_for @tetcoin, :fund_extra
+          = item_for @tetcoin, :fund_uid do
+            span = @tetcoin.fund_uid.truncate(22)
+          = item_for @tetcoin, :amount
+          hr.split
+          = item_for @tetcoin, :remark
+          hr.split
+          ul.list-inline.pull-right
+            - if @tetcoin.may_reject?
+              li
+                = link_to t('.reject'), url_for([:admin, @tetcoin]), class: 'btn btn-danger', method: 'DELETE', confirm: t('.reject_confirm')
+            - if @tetcoin.may_process?
+              li
+                = link_to t('.process'), url_for([:admin, @tetcoin]), class: 'btn btn-primary', method: 'PATCH'
+
+  .col-xs-12
+    = render partial: 'shared/admin/member', locals: {member: @tetcoin.member}
+    = render partial: 'shared/admin/account', locals: {account: @tetcoin.account}

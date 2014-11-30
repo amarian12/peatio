@@ -1,0 +1,7 @@
+zh-CN:
+  currency:
+    tetcoin:
+      key: TET
+      code: TET
+      name: Tetcoin
+      format: '0,0.0000'

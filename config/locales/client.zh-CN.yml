@@ -31,6 +31,10 @@ zh-CN:
         opening_bank_name: 开户行
       deposit_btc:
         title: 比特币充值
+      deposit_czr:
+        title: 比特币充值
+      deposit_tet:
+        title: 比特币充值
       deposit_coin:
         address: 地址
         new_address: 生成新地址
@@ -72,6 +76,10 @@ zh-CN:
         min: 最低
         withdraw_all: 全部提取
       withdraw_btc:
+        title: 比特币提现
+      withdraw_czr:
+        title: 比特币提现
+      withdraw_tet:
         title: 比特币提现
       withdraw_coin:
         intro: 指定要提现的地址，输入提取数量，提交即可，10分钟之内到账。

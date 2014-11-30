@@ -18,10 +18,14 @@ module Admin
       can :menu, Deposit
       can :manage, ::Deposits::Bank
       can :manage, ::Deposits::Satoshi
+      can :manage, ::Deposits::Czarcoin
+      can :manage, ::Deposits::Tetcoin
 
       can :menu, Withdraw
       can :manage, ::Withdraws::Bank
       can :manage, ::Withdraws::Satoshi
+      can :manage, ::Withdraws::Czarcoin
+      can :manage, ::Withdraws::Tetcoin
     end
   end
 end

@@ -1,6 +1,6 @@
 en:
   js:
-    brand: Peatio
+    brand: Treefunder
     submit: Submit
     funds:
       deposit: Deposit
@@ -27,6 +27,10 @@ en:
 
       deposit_btc:
         title: BTC Deposit
+      deposit_czr:
+        title: CZR Deposit
+      deposit_tet:
+        title: TET Deposit
 
       deposit_coin:
         address: Address
@@ -74,6 +78,10 @@ en:
 
       withdraw_btc:
         title: BTC Withdraw
+      withdraw_czr:
+        title: CZR Withdraw
+      withdraw_tet:
+        title: TET Withdraw
 
       withdraw_coin:
         intro: Please fill in the address and amount, then submit the form. It will be confirmed in 10 minutes

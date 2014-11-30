@@ -6,5 +6,9 @@ en:
     admin/withdraws: Withdraws
     admin/deposits/banks: Banks
     admin/deposits/satoshis: Satoshis
+    admin/deposits/czarcoins: Czarcoins
+    admin/deposits/tetcoins: Tetcoins
     admin/withdraws/banks: Banks
     admin/withdraws/satoshis: Satoshis
+    admin/withdraws/czarcoins: Czarcoins
+    admin/withdraws/tetcoins: Tetcoins

@@ -1,10 +1,3 @@
-- id: 200
-  key: satoshi
-  currency: btc
-  fixed: 8
-  fee: 0.0005
-  inuse: true
-  type: WithdrawChannelSatoshi
 - id: 400
   key: bank
   currency: cny
@@ -16,3 +9,24 @@
   proportion: true
   inuse: true
   type: WithdrawChannelBank
+- id: 200
+  key: satoshi
+  currency: btc
+  fixed: 8
+  fee: 0.0005
+  inuse: true
+  type: WithdrawChannelSatoshi
+- id: 1000
+  key: czarcoin
+  currency: czr
+  fixed: 8
+  fee: 0.0005
+  inuse: true
+  type: WithdrawChannelCzarcoin
+- id: 1001
+  key: tetcoin
+  currency: tet
+  fixed: 8
+  fee: 0.0005
+  inuse: true
+  type: WithdrawChannelTetcoin
