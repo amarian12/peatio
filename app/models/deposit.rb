@@ -110,8 +110,8 @@ class Deposit < ActiveRecord::Base
                                              time: I18n.l(Time.now),
                                              amount: amount,
                                              balance: account.balance)
-
-    AMQPQueue.enqueue(:sms_notification, phone: member.phone_number, message: sms_message)
+    # Treefunder Disable Deposit Notifications
+    #AMQPQueue.enqueue(:sms_notification, phone: member.phone_number, message: sms_message)
   end
 
   def set_fee
