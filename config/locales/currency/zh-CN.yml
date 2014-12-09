@@ -5,27 +5,42 @@ zh-CN:
       btc: 比特币
       czr: Czarcoin
       tet: Tetcoin
+      ltc: Litecoin
+      rdd: Reddcoin
+      wdc: Worldcoin
     code:
       cny: CNY
       btc: BTC
       czr: CZR
       tet: TET
+      ltc: LTC
+      rdd: RDD
+      wdc: WDC
     format:
       zero: 'N/A'
       cny: '0.00'
       btc: '0.0000'
       czr: '0,0.0000'
       tet: '0,0.0000'
+      ltc: '0,0.0000'
+      rdd: '0,0.0000'
+      wdc: '0,0.0000'
     icon-large:
       cny: <span class='big-currency'>¥</span>
       btc: <span class='big-currency'>฿</span>
       czr: <i class='fa fa-2x fa-czr'></i>
       tet: <i class='fa fa-2x fa-tet'></i>
+      ltc: <i class='fa fa-2x fa-ltc'></i>
+      rdd: <i class='fa fa-2x fa-rdd'></i>
+      wdc: <i class='fa fa-2x fa-wdc'></i>
     icon:
       cny: <span class='currency'>¥</span>
       btc: <span class='currency'>฿</span>
       czr: <i class='fa fa-czr'></i>
       tet: <i class='fa fa-tet'></i>
+      ltc: <i class='fa fa-ltc'></i>
+      rdd: <i class='fa fa-rdd'></i>
+      wdc: <i class='fa fa-wdc'></i>
     sum:
       bid: 合计 <span class=bid_totle></span>%{bid_icon}
       ask: 合计 <span class=ask_totle></span>%{bid_icon}

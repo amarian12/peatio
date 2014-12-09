@@ -1,0 +1,7 @@
+en:
+  currency:
+    litecoin:
+      key: LTC
+      code: LTC
+      name: Litecoin
+      format: '0,0.0000'

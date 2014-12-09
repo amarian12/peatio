@@ -6,6 +6,9 @@ en:
         btc_format: '0.00000000'
         czr_format: '0.00000000'
         tet_format: '0.00000000'
+        ltc_format: '0.00000000'
+        rdd_format: '0.00000000'
+        wdc_format: '0.00000000'
         account_history: Account History
         reason:
           cny:
@@ -27,6 +30,24 @@ en:
             withdraw: Withdraw
             fix: Fix
           tet:
+            strike_add: Plus
+            strike_sub: Sub
+            deposit: Deposit
+            withdraw: Withdraw
+            fix: Fix
+          ltc:
+            strike_add: Plus
+            strike_sub: Sub
+            deposit: Deposit
+            withdraw: Withdraw
+            fix: Fix
+          rdd:
+            strike_add: Plus
+            strike_sub: Sub
+            deposit: Deposit
+            withdraw: Withdraw
+            fix: Fix
+          wdc:
             strike_add: Plus
             strike_sub: Sub
             deposit: Deposit

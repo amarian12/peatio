@@ -3,6 +3,9 @@
     li.active: a.btc-proof href="#btc-proof" data-toggle="tab" == t('.verify-btc')
     li:        a.czr-proof href="#czr-proof" data-toggle="tab" == t('.verify-czr')
     li:        a.tet-proof href="#tet-proof" data-toggle="tab" == t('.verify-tet')
+    li:        a.ltc-proof href="#ltc-proof" data-toggle="tab" == t('.verify-ltc')
+    li:        a.rdd-proof href="#rdd-proof" data-toggle="tab" == t('.verify-rdd')
+    li:        a.wdc-proof href="#wdc-proof" data-toggle="tab" == t('.verify-wdc')
     /li:        a.cny-proof href="#cny-proof" data-toggle="tab" == t('.verify-cny')
 
   .tab-content
@@ -27,6 +30,27 @@
           == t("currency.icon.tet")
           = @tet_proof.sum
       = render 'liability_data', account: @tet_account, proof: @tet_proof
+    #ltc-proof.tab-pane: .trade-wrapper
+      .assets
+        span.title = t('.ltc-assets-total')
+        span.currency
+          == t("currency.icon.ltc")
+          = @ltc_proof.sum
+      = render 'liability_data', account: @ltc_account, proof: @ltc_proof
+    #rdd-proof.tab-pane: .trade-wrapper
+      .assets
+        span.title = t('.rdd-assets-total')
+        span.currency
+          == t("currency.icon.rdd")
+          = @rdd_proof.sum
+      = render 'liability_data', account: @rdd_account, proof: @rdd_proof
+    #wdc-proof.tab-pane: .trade-wrapper
+      .assets
+        span.title = t('.wdc-assets-total')
+        span.currency
+          == t("currency.icon.wdc")
+          = @wdc_proof.sum
+      = render 'liability_data', account: @wdc_account, proof: @wdc_proof
 
     /#cny-proof.tab-pane:        .trade-wrapper
     /  .assets

@@ -8,10 +8,16 @@ zh-CN:
     admin/deposits/satoshis: 比特币充值
     admin/deposits/czarcoins: Czarcoins
     admin/deposits/tetcoins: Tetcoins
+    admin/deposits/litecoins: Litecoins
+    admin/deposits/reddcoins: Reddcoins
+    admin/deposits/worldcoins: Worldcoins
     admin/withdraws/banks: 银行转账提现
     admin/withdraws/satoshis: 比特币提现
     admin/withdraws/czarcoins: Czarcoins
     admin/withdraws/tetcoins: Tetcoins
+    admin/withdraws/litecoins: Litecoins
+    admin/withdraws/reddcoins: Reddcoins
+    admin/withdraws/worldcoins: Worldcoins
     admin/statistic: 数据统计
     admin/statistic/members: 用户统计
     admin/members: 用户信息

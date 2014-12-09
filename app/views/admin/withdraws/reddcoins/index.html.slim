@@ -1,0 +1,11 @@
+- unless @one_reddcoins.empty?
+  .panel.panel-primary
+    .panel-heading: span = t('.one')
+    = render partial: 'table', locals: {reddcoins: @one_reddcoins}
+- unless @all_reddcoins.empty?
+  .panel.panel-success
+    .panel-heading: span = t('.all')
+    = render partial: 'table', locals: {reddcoins: @all_reddcoins}
+
+- if @all_reddcoins.empty? and @one_reddcoins.empty?
+  h3.text-info.text-center = t('.empty')

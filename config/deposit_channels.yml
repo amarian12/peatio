@@ -26,3 +26,21 @@
   sort_order: 4
   min_confirm: 1
   max_confirm: 3
+- id: 1002
+  key: litecoin
+  currency: ltc
+  sort_order: 5
+  min_confirm: 1
+  max_confirm: 3
+- id: 1003
+  key: reddcoin
+  currency: rdd
+  sort_order: 6
+  min_confirm: 1
+  max_confirm: 3
+- id: 1004
+  key: worldcoin
+  currency: wdc
+  sort_order: 7
+  min_confirm: 1
+  max_confirm: 3

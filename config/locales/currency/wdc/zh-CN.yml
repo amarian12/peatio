@@ -1,0 +1,7 @@
+en:
+  currency:
+    worldcoin:
+      key: WDC
+      code: WDC
+      name: Worldcoin
+      format: '0,0.0000'

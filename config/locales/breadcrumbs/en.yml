@@ -8,7 +8,13 @@ en:
     admin/deposits/satoshis: Satoshis
     admin/deposits/czarcoins: Czarcoins
     admin/deposits/tetcoins: Tetcoins
+    admin/deposits/litecoins: Litecoins
+    admin/deposits/reddcoins: Reddcoins
+    admin/deposits/worldcoins: Worldcoins
     admin/withdraws/banks: Banks
     admin/withdraws/satoshis: Satoshis
     admin/withdraws/czarcoins: Czarcoins
     admin/withdraws/tetcoins: Tetcoins
+    admin/withdraws/litecoins: Litecoins
+    admin/withdraws/reddcoins: Reddcoins
+    admin/withdraws/worldcoins: Worldcoins

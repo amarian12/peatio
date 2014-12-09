@@ -4,6 +4,11 @@ zh-CN:
       show:
         cny_format: '0.00'
         btc_format: '0.00000000'
+        czr_format: '0.00000000'
+        tet_format: '0.00000000'
+        ltc_format: '0.00000000'
+        rdd_format: '0.00000000'
+        wdc_format: '0.00000000'
         account_history: 账户历史记录
         reason:
           cny:
@@ -13,6 +18,36 @@ zh-CN:
             withdraw: 提现
             fix: 系统修正
           btc:
+            strike_add: 成交买入
+            strike_sub: 成交卖出
+            deposit: 充值
+            withdraw: 提现
+            fix: 系统修正
+          czr:
+            strike_add: 成交买入
+            strike_sub: 成交卖出
+            deposit: 充值
+            withdraw: 提现
+            fix: 系统修正
+          tet:
+            strike_add: 成交买入
+            strike_sub: 成交卖出
+            deposit: 充值
+            withdraw: 提现
+            fix: 系统修正
+          ltc:
+            strike_add: 成交买入
+            strike_sub: 成交卖出
+            deposit: 充值
+            withdraw: 提现
+            fix: 系统修正
+          rdd:
+            strike_add: 成交买入
+            strike_sub: 成交卖出
+            deposit: 充值
+            withdraw: 提现
+            fix: 系统修正
+          wdc:
             strike_add: 成交买入
             strike_sub: 成交卖出
             deposit: 充值

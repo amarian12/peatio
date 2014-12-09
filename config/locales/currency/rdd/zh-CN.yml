@@ -1,0 +1,7 @@
+en:
+  currency:
+    reddcoin:
+      key: RDD
+      code: RDD
+      name: Reddcoin
+      format: '0,0.0000'

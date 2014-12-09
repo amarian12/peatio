@@ -5,27 +5,42 @@ en:
       btc: Bitcoin
       czr: Czarcoin
       tet: Tetcoin
+      ltc: Litecoin
+      rdd: Reddcoin
+      wdc: Worldcoin
     code:
       cny: CNY
       btc: BTC
       czr: CZR
       tet: TET
+      ltc: LTC
+      rdd: RDD
+      wdc: WDC
     format:
       zero: 'N/A'
       cny: '0,0.00'
       btc: '0,0.0000'
       czr: '0,0.0000'
       tet: '0,0.0000'
+      ltc: '0,0.0000'
+      rdd: '0,0.0000'
+      wdc: '0,0.0000'
     icon-large:
       cny: <i class='fa fa-2x fa-yen'></i>
       btc: <i class='fa fa-2x fa-btc'></i>
       czr: <i class='fa fa-2x fa-czr'></i>
       tet: <i class='fa fa-2x fa-tet'></i>
+      ltc: <i class='fa fa-2x fa-ltc'></i>
+      rdd: <i class='fa fa-2x fa-rdd'></i>
+      wdc: <i class='fa fa-2x fa-wdc'></i>
     icon:
       cny: <i class='fa fa-yen'></i>
       btc: <i class='fa fa-btc'></i>
       czr: <i class='fa fa-czr'></i>
       tet: <i class='fa fa-tet'></i>
+      ltc: <i class='fa fa-ltc'></i>
+      rdd: <i class='fa fa-rdd'></i>
+      wdc: <i class='fa fa-wdc'></i>
     sum:
       bid: Total Price <span class=bid_totle></span>%{bid_icon}
       ask: Total Price <span class=ask_totle></span>%{bid_icon}

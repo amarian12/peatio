@@ -1,0 +1,11 @@
+- unless @one_worldcoins.empty?
+  .panel.panel-primary
+    .panel-heading: span = t('.one')
+    = render partial: 'table', locals: {worldcoins: @one_worldcoins}
+- unless @all_worldcoins.empty?
+  .panel.panel-success
+    .panel-heading: span = t('.all')
+    = render partial: 'table', locals: {worldcoins: @all_worldcoins}
+
+- if @all_worldcoins.empty? and @one_worldcoins.empty?
+  h3.text-info.text-center = t('.empty')

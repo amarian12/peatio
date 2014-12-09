@@ -4,11 +4,26 @@ en:
       index:
         liability-proof: Proof of Liabilities
         btc-assets: BTC Assets
+        czr-assets: CZR Assets
+        tet-assets: TET Assets
+        ltc-assets: LTC Assets
+        rdd-assets: RDD Assets
+        wdc-assets: WDC Assets
         cny-assets: CNY Assets
       liability_tabs:
         verify-btc: Verify My BTC Assets
+        verify-czr: Verify My CZR Assets
+        verify-tet: Verify My TET Assets
+        verify-ltc: Verify My LTC Assets
+        verify-rdd: Verify My RDD Assets
+        verify-wdc: Verify My WDC Assets
         verify-cny: Verify My CNY Assets
         btc-assets-total: 'Total BTC assets of exchange: '
+        czr-assets-total: 'Total CZR assets of exchange: '
+        tet-assets-total: 'Total TET assets of exchange: '
+        ltc-assets-total: 'Total LTC assets of exchange: '
+        rdd-assets-total: 'Total RDD assets of exchange: '
+        wdc-assets-total: 'Total WDC assets of exchange: '
         cny-assets-total: 'Total CNY assets of exchange: '
       liability_proof:
         title: Proof of Liabilities
@@ -26,6 +41,31 @@ en:
         title: BTC Assets
         intro: All of exchange's BTC assets are listed here.
         total: Total BTC Assets
+        address: Address
+      czr_assets:
+        title: CZR Assets
+        intro: All of exchange's CZR assets are listed here.
+        total: Total CZR Assets
+        address: Address
+      tet_assets:
+        title: TET Assets
+        intro: All of exchange's TET assets are listed here.
+        total: Total TET Assets
+        address: Address
+      ltc_assets:
+        title: LTC Assets
+        intro: All of exchange's LTC assets are listed here.
+        total: Total LTC Assets
+        address: Address
+      rdd_assets:
+        title: RDD Assets
+        intro: All of exchange's RDD assets are listed here.
+        total: Total RDD Assets
+        address: Address
+      wdc_assets:
+        title: WDC Assets
+        intro: All of exchange's WDC assets are listed here.
+        total: Total WDC Assets
         address: Address
       cny_assets:
         title: CNY Assets

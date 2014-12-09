@@ -4,11 +4,26 @@ zh-CN:
       index:
         liability-proof: 资产证明
         btc-assets: BTC资产清单
+        czr-assets: CZR Assets
+        tet-assets: TET Assets
+        ltc-assets: LTC Assets
+        rdd-assets: RDD Assets
+        wdc-assets: WDC Assets
         cny-assets: CNY资产清单
       liability_tabs:
         verify-btc: 验证我的BTC资产
+        verify-czr: Verify My CZR Assets
+        verify-tet: Verify My TET Assets
+        verify-ltc: Verify My LTC Assets
+        verify-rdd: Verify My RDD Assets
+        verify-wdc: Verify My WDC Assets
         verify-cny: 验证我的CNY资产
         btc-assets-total: 交易所BTC总资产：
+        czr-assets-total: 'Total CZR assets of exchange: '
+        tet-assets-total: 'Total TET assets of exchange: '
+        ltc-assets-total: 'Total LTC assets of exchange: '
+        rdd-assets-total: 'Total RDD assets of exchange: '
+        wdc-assets-total: 'Total WDC assets of exchange: '
         cny-assets-total: 交易所CNY总资产：
       liability_proof:
         title: 资产证明
@@ -27,6 +42,31 @@ zh-CN:
         intro: 查看交易所全部BTC资产清单
         total: BTC总资产
         address: 钱包地址
+      czr_assets:
+        title: CZR Assets
+        intro: All of exchange's CZR assets are listed here.
+        total: Total CZR Assets
+        address: Address
+      tet_assets:
+        title: TET Assets
+        intro: All of exchange's TET assets are listed here.
+        total: Total TET Assets
+        address: Address
+      ltc_assets:
+        title: LTC Assets
+        intro: All of exchange's LTC assets are listed here.
+        total: Total LTC Assets
+        address: Address
+      rdd_assets:
+        title: RDD Assets
+        intro: All of exchange's RDD assets are listed here.
+        total: Total RDD Assets
+        address: Address
+      wdc_assets:
+        title: WDC Assets
+        intro: All of exchange's WDC assets are listed here.
+        total: Total WDC Assets
+        address: Address
       cny_assets:
         title: CNY资产清单
         intro: 查看交易所全部CNY资产清单

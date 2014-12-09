@@ -23,6 +23,9 @@ en:
       btc: BTC
       czr: CZR
       tet: TET
+      ltc: LTC
+      rdd: RDD
+      wdc: WDC
     order:
       state:
         done: DONE

@@ -21,6 +21,11 @@ zh-CN:
     currency:
       cny: CNY
       btc: BTC
+      czr: CZR
+      tet: TET
+      ltc: LTC
+      rdd: RDD
+      wdc: WDC
     order:
       state:
         done: 完全成交

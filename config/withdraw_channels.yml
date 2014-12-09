@@ -30,3 +30,24 @@
   fee: 0.0005
   inuse: true
   type: WithdrawChannelTetcoin
+- id: 1002
+  key: litecoin
+  currency: ltc
+  fixed: 8
+  fee: 0.0005
+  inuse: true
+  type: WithdrawChannelLitecoin
+- id: 1003
+  key: reddcoin
+  currency: rdd
+  fixed: 8
+  fee: 0.0005
+  inuse: true
+  type: WithdrawChannelReddcoin
+- id: 1004
+  key: worldcoin
+  currency: wdc
+  fixed: 8
+  fee: 0.0005
+  inuse: true
+  type: WithdrawChannelWorldcoin

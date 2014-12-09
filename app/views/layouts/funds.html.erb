@@ -3,7 +3,7 @@
   <head>
     <%- stylesheet = content_for?(:stylesheet) ? yield(:stylesheet) : "application" %>
 
-    <link href="/favicon.ico" rel="shortcut icon"></link>
+    <link href="/favicon.png" rel="shortcut icon"></link>
     <%= include_gon %>
     <script type = 'text/javascript'>
       window.deposits = <%= raw @deposits.to_json %>
