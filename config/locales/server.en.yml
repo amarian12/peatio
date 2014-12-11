@@ -3,7 +3,7 @@ en:
   "false": No
 
   view_on_github: View on Github
-  slogan: The Cryptocurrency Exchange.
+  slogan: The Cryptocurrency Exchange
   tags:
     vip: VIP
     hero: Hero Member
@@ -81,7 +81,7 @@ en:
     signup: Sign Up
     login_via_weibo: Login via Weibo
     funds: Funds
-    getstart: Get Start
+    getstart: Get Started
     assets: Solvency
     history: History
     order_history: Order History
