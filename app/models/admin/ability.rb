@@ -23,6 +23,7 @@ module Admin
       can :manage, ::Deposits::Litecoin
       can :manage, ::Deposits::Reddcoin
       can :manage, ::Deposits::Worldcoin
+      can :manage, ::Deposits::Paycoin
 
       can :menu, Withdraw
       can :manage, ::Withdraws::Bank
@@ -32,6 +33,7 @@ module Admin
       can :manage, ::Withdraws::Litecoin
       can :manage, ::Withdraws::Reddcoin
       can :manage, ::Withdraws::Worldcoin
+      can :manage, ::Withdraws::Paycoin
     end
   end
 end

@@ -1,0 +1,30 @@
+.row
+  .col-xs-12
+    .panel.panel-primary
+      .panel-heading
+        span = t('.withdraw', sn: @paycoin.id)
+      .panel-body
+        = description_for :withdraw do
+          = item_for @paycoin, :id
+          = item_for @paycoin, :created_at
+          = item_for @paycoin, :aasm_state_text
+          hr.split
+          = item_for @paycoin.member, :name
+          = item_for @paycoin, :fund_extra
+          = item_for @paycoin, :fund_uid do
+            span = @paycoin.fund_uid.truncate(22)
+          = item_for @paycoin, :amount
+          hr.split
+          = item_for @paycoin, :remark
+          hr.split
+          ul.list-inline.pull-right
+            - if @paycoin.may_reject?
+              li
+                = link_to t('.reject'), url_for([:admin, @paycoin]), class: 'btn btn-danger', method: 'DELETE', confirm: t('.reject_confirm')
+            - if @paycoin.may_process?
+              li
+                = link_to t('.process'), url_for([:admin, @paycoin]), class: 'btn btn-primary', method: 'PATCH'
+
+  .col-xs-12
+    = render partial: 'shared/admin/member', locals: {member: @paycoin.member}
+    = render partial: 'shared/admin/account', locals: {account: @paycoin.account}

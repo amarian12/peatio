@@ -8,6 +8,7 @@ zh-CN:
       ltc: Litecoin
       rdd: Reddcoin
       wdc: Worldcoin
+      xpy: Paycoin
     code:
       cny: CNY
       btc: BTC
@@ -16,6 +17,7 @@ zh-CN:
       ltc: LTC
       rdd: RDD
       wdc: WDC
+      xpy: Paycoin
     format:
       zero: 'N/A'
       cny: '0.00'
@@ -25,6 +27,7 @@ zh-CN:
       ltc: '0,0.0000'
       rdd: '0,0.0000'
       wdc: '0,0.0000'
+      xpy: '0,0.0000'
     icon-large:
       cny: <span class='big-currency'>¥</span>
       btc: <span class='big-currency'>฿</span>
@@ -33,6 +36,7 @@ zh-CN:
       ltc: <i class='fa fa-2x fa-ltc'></i>
       rdd: <i class='fa fa-2x fa-rdd'></i>
       wdc: <i class='fa fa-2x fa-wdc'></i>
+      xpy: <i class='fa fa-2x fa-xpy'></i>
     icon:
       cny: <span class='currency'>¥</span>
       btc: <span class='currency'>฿</span>
@@ -41,6 +45,7 @@ zh-CN:
       ltc: <i class='fa fa-ltc'></i>
       rdd: <i class='fa fa-rdd'></i>
       wdc: <i class='fa fa-wdc'></i>
+      xpy: <i class='fa fa-xpy'></i>
     sum:
       bid: 合计 <span class=bid_totle></span>%{bid_icon}
       ask: 合计 <span class=ask_totle></span>%{bid_icon}

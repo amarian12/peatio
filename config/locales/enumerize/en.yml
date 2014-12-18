@@ -26,6 +26,7 @@ en:
       ltc: LTC
       rdd: RDD
       wdc: WDC
+      xpy: XPY
     order:
       state:
         done: DONE
@@ -35,6 +36,12 @@ en:
       address_type:
         satoshi: Bitcoin
         bank: Bank
+        czarcoin: Czarcoin
+        tetcoin: Tetcoin
+        litecoin: Litecoin
+        reddcoin: Reddcoin
+        worldcoin: Worldcoin
+        paycoin: Paycoin
       admin_aasm_state:
         submitted: 待处理
         submitting: 已提交

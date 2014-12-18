@@ -41,6 +41,8 @@ zh-CN:
         title: RDD Deposit
       deposit_wdc:
         title: WDC Deposit
+      deposit_xpy:
+        title: XPY Deposit
       deposit_coin:
         address: 地址
         new_address: 生成新地址
@@ -93,6 +95,8 @@ zh-CN:
         title: RDD Withdraw
       withdraw_wdc:
         title: WDC Withdraw
+      withdraw_xpy:
+        title: XPY Withdraw
       withdraw_coin:
         intro: 指定要提现的地址，输入提取数量，提交即可，10分钟之内到账。
         label: 标签

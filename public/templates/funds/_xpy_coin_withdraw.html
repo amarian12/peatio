@@ -1,4 +1,4 @@
-<form id="rdd_withdraw" class="form form-horizontal" ng-controller="WithdrawsController as withdrawsCtrl" ng-submit="withdrawsCtrl.createWithdraw(currency)">
+<form id="xpy_withdraw" class="form form-horizontal" ng-controller="WithdrawsController as withdrawsCtrl" ng-submit="withdrawsCtrl.createWithdraw(currency)">
 <div class="form-group">
 <div class="col-sm-6">
 <label class="select required control-label" for="withdraw_fund_source">{{"funds.withdraw_coin.label" | t}}</label>
@@ -8,7 +8,7 @@
 <option value="{{fs.id}}" ng-repeat="fs in fsources">{{fs.label}}</option>
 </select>
 </div>
-<span class="col-sm-6 help-block"><a href="/rdd_fund_sources">{{"funds.withdraw_coin.manage_withdraw" | t}}</a></span>
+<span class="col-sm-6 help-block"><a href="/xpy_fund_sources">{{"funds.withdraw_coin.manage_withdraw" | t}}</a></span>
 </div>
 <div class="form-group">
 <div class="col-sm-6">

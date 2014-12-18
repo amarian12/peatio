@@ -6,6 +6,7 @@
     li:        a.ltc-proof href="#ltc-proof" data-toggle="tab" == t('.verify-ltc')
     li:        a.rdd-proof href="#rdd-proof" data-toggle="tab" == t('.verify-rdd')
     li:        a.wdc-proof href="#wdc-proof" data-toggle="tab" == t('.verify-wdc')
+    li:        a.xpy-proof href="#xpy-proof" data-toggle="tab" == t('.verify-xpy')
     /li:        a.cny-proof href="#cny-proof" data-toggle="tab" == t('.verify-cny')
 
   .tab-content
@@ -51,6 +52,13 @@
           == t("currency.icon.wdc")
           = @wdc_proof.sum
       = render 'liability_data', account: @wdc_account, proof: @wdc_proof
+    #xpy-proof.tab-pane: .trade-wrapper
+      .assets
+        span.title = t('.xpy-assets-total')
+        span.currency
+          == t("currency.icon.xpy")
+          = @xpy_proof.sum
+      = render 'liability_data', account: @xpy_account, proof: @xpy_proof
 
     /#cny-proof.tab-pane:        .trade-wrapper
     /  .assets

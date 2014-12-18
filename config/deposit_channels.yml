@@ -44,3 +44,9 @@
   sort_order: 7
   min_confirm: 1
   max_confirm: 3
+- id: 1005
+  key: paycoin
+  currency: xpy
+  sort_order: 8
+  min_confirm: 1
+  max_confirm: 3

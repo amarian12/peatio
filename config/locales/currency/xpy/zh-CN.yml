@@ -1,0 +1,7 @@
+zh-CN:
+  currency:
+    paycoin:
+      key: XPY
+      code: XPY
+      name: Paycoin
+      format: '0,0.0000'

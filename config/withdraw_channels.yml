@@ -51,3 +51,10 @@
   fee: 0.0005
   inuse: true
   type: WithdrawChannelWorldcoin
+- id: 1005
+  key: paycoin
+  currency: xpy
+  fixed: 8
+  fee: 0.0005
+  inuse: true
+  type: WithdrawChannelPaycoin

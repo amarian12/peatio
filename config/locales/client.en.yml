@@ -37,6 +37,8 @@ en:
         title: RDD Deposit
       deposit_wdc:
         title: WDC Deposit
+      deposit_xpy:
+        title: XPY Deposit
 
       deposit_coin:
         address: Address
@@ -94,6 +96,8 @@ en:
         title: RDD Withdraw
       withdraw_wdc:
         title: WDC Withdraw
+      withdraw_xpy:
+        title: XPY Withdraw
 
       withdraw_coin:
         intro: Please fill in the address and amount, then submit the form. It will be confirmed in 10 minutes

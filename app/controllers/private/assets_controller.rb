@@ -10,6 +10,7 @@ module Private
       @ltc_proof   = Proof.current :ltc
       @rdd_proof   = Proof.current :rdd
       @wdc_proof   = Proof.current :wdc
+      @xpy_proof   = Proof.current :xpy
       #@cny_proof   = Proof.current :cny
 
       if current_user
@@ -19,6 +20,7 @@ module Private
         @ltc_account = current_user.accounts.with_currency(:ltc).first
         @rdd_account = current_user.accounts.with_currency(:rdd).first
         @wdc_account = current_user.accounts.with_currency(:wdc).first
+        @xpy_account = current_user.accounts.with_currency(:xpy).first
         #@cny_account = current_user.accounts.with_currency(:cny).first
       end
     end

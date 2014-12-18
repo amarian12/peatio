@@ -11,6 +11,7 @@ en:
     admin/deposits/litecoins: Litecoins
     admin/deposits/reddcoins: Reddcoins
     admin/deposits/worldcoins: Worldcoins
+    admin/deposits/paycoins: Paycoins
     admin/withdraws/banks: Banks
     admin/withdraws/satoshis: Satoshis
     admin/withdraws/czarcoins: Czarcoins
@@ -18,3 +19,4 @@ en:
     admin/withdraws/litecoins: Litecoins
     admin/withdraws/reddcoins: Reddcoins
     admin/withdraws/worldcoins: Worldcoins
+    admin/withdraws/paycoins: Paycoins
