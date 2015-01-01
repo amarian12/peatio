@@ -55,6 +55,6 @@
   key: paycoin
   currency: xpy
   fixed: 8
-  fee: 0.0005
+  fee: 0.001
   inuse: true
   type: WithdrawChannelPaycoin

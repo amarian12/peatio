@@ -35,7 +35,8 @@ module Worker
           address: detail[:address],
           amount: detail[:amount].to_s.to_d,
           confirmations: raw[:confirmations],
-          receive_at: Time.at(raw[:timereceived]).to_datetime,
+          #receive_at: Time.at(raw[:timereceived]).to_datetime,
+          receive_at: Time.at(raw[:timereceived] || raw[:time]).to_datetime,
           currency: channel.currency
 
         deposit = channel.kls.create! \
