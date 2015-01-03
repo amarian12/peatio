@@ -1,0 +1,41 @@
+= content_for :frame do
+  .container
+    .jumbotron
+      h2 Cryptocurrency Voting for Inclusion
+      p 
+        | At Treefunder, we are continously seeking to add value to our community.  This exchange was originally built on the promise to be fair and open to all.  We strongly believe in the democratic voting process for the addition of new markets.   
+      p 
+        | Our Voting System is in a sponsored format.  To submit a vote, deposit funds to address of the desired market.  Each mBTC counts for Ten (10) Votes.  There is a minimum requirement of 10,000 Votes per platform to qualify for market formation.
+    table.table.tablesorter id='votingtable'
+      thead
+        tr
+          th Cryptocurrency
+          th Code
+          th Voting Address
+          th Total Votes
+      tbody
+        tr
+          td
+            a target='_blank' href='http://www.peercoin.net/' Peercoin
+          td
+            a name='PPC' PPC
+          td
+            a target='_blank' href='https://blockchain.info/address/1NkrJXEUWK3nLS8JsTFoJ3U5JuXg2hZaBy' 1NkrJXEUWK3nLS8JsTFoJ3U5JuXg2hZaBy
+          td
+            = "#{@vhashppc}"
+        tr
+          td
+            a target='_blank' href='https://www.blackcoin.co/' Blackcoin
+          td
+            a name='BLK' BLK
+          td
+            a target='_blank' href='https://blockchain.info/address/17Qjz8x9tpWvWUhREWGnYXYpKcyDB5FmFt' 17Qjz8x9tpWvWUhREWGnYXYpKcyDB5FmFt
+          td 10
+        tr
+          td
+            a target='_blank' href='https://www.darkcoin.io/' Darkcoin
+          td
+            a name='DRK' DRK
+          td
+            a target='_blank' href='https://blockchain.info/address/1B7PToKivNFMHe3vgF1f59grdtF81zy5sY' 1B7PToKivNFMHe3vgF1f59grdtF81zy5sY
+          td 10

@@ -15,6 +15,7 @@ header.text-center
           /.col-xs-4
           /a href="#{signup_path}" class="btn btn-primary btn-lg btn-block" role="button" = t("header.signup")
           li: a href="#{signup_path}" = t("header.signup")
+          li: a href="#{voting_path}" = 'Voting'
       - else
         /.col-xs-6.col-xs-offset-9.text-center
         /  a href="#{market_path(current_market)}" class="btn btn-primary btn-lg btn-block" role="button" = t("header.getstart")
@@ -24,6 +25,7 @@ header.text-center
           li: a href="#{market_path(current_market)}" = t("header.getstart")
           li: a href="#{funds_path}" = t("header.funds")
           li: a href="#{settings_path}" = t("header.settings")
+          li: a href="#{voting_path}" = 'Voting'
     a href='https://treefunder.co'
       img src='#{image_path 'logo.png'}' width='336px'
     section

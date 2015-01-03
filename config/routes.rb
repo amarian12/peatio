@@ -139,6 +139,9 @@ Peatio::Application.routes.draw do
   end
 
   get '/forum' => 'forum#index'
+  
+  # Treefunder routes
+  get '/voting' => 'voting#index'
 
   mount APIv2::Mount => '/'
 
