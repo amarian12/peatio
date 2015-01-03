@@ -5,8 +5,7 @@ class VotingController < ApplicationController
   def index
     vres = File.read('public/voting.json')
     vdata = JSON.parse(vres)
-    @vhash = 10
-    @vhashppc = vdata['PPC']
+    @vhash = vdata
   end
   
   #def vhash

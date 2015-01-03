@@ -22,7 +22,7 @@
           td
             a target='_blank' href='https://blockchain.info/address/1NkrJXEUWK3nLS8JsTFoJ3U5JuXg2hZaBy' 1NkrJXEUWK3nLS8JsTFoJ3U5JuXg2hZaBy
           td
-            = "#{@vhashppc}"
+            = "#{@vhash['PPC'].round(2)}"
         tr
           td
             a target='_blank' href='https://www.blackcoin.co/' Blackcoin
@@ -30,7 +30,8 @@
             a name='BLK' BLK
           td
             a target='_blank' href='https://blockchain.info/address/17Qjz8x9tpWvWUhREWGnYXYpKcyDB5FmFt' 17Qjz8x9tpWvWUhREWGnYXYpKcyDB5FmFt
-          td 10
+          td
+            = "#{@vhash['BLK'].round(2)}"
         tr
           td
             a target='_blank' href='https://www.darkcoin.io/' Darkcoin
@@ -38,4 +39,5 @@
             a name='DRK' DRK
           td
             a target='_blank' href='https://blockchain.info/address/1B7PToKivNFMHe3vgF1f59grdtF81zy5sY' 1B7PToKivNFMHe3vgF1f59grdtF81zy5sY
-          td 10
+          td
+            = "#{@vhash['DRK'].round(2)}"
