@@ -12,6 +12,28 @@ html lang="en"
   body id='#{body_id}' data-lang="#{locale_name}"
     #wrap
       = render 'shared/alert'
+      
+      / Treefunder: Added Navigation
+      header.navbar.navbar-default.navbar-static-top role = "navigation"
+        .container
+          a href='#{root_path}'
+            img src='/treefunder-black.png' height='50px' style='float:left;'
+          ul#menu.nav.navbar-nav.navbar-left
+            a.text-center.navbar-brand href='#{root_path}' Treefunder
+            = top_nav_link(t('header.market'), market_path(current_market.id), 'exchange')
+            = top_nav_link(t('header.funds'), funds_path, 'money', controllers: ['funds']) if current_user
+            = top_nav_link(t('header.assets'), exchange_assets_path, 'bar-chart-o')
+            = top_nav_link(t('header.history'), order_history_path, 'book', controllers: ['history']) if current_user
+            = top_nav_link(t('header.voting'), voting_path, 'thumbs-up')
+          ul.nav.navbar-nav.navbar-right
+            - unless current_user
+              /p: ul.list-inline
+              li: a href="#{signin_path}" = t("header.signin")
+              li: a href="#{signup_path}" = t("header.signup")
+            - else
+              /p: ul.list-inline
+              li: a href="#{settings_path}" = t("header.settings")
+        
       = yield
       #push
     = render 'shared/footer'
